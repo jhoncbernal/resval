@@ -21,7 +21,7 @@ app.use(bodyParser.urlencoded({ extended: true }))
 
 
 app.get('*', (request, response) => {
-	response.sendFile(path.join(__dirname, 'client/build', 'index.html'));
+	response.sendFile(path.join(__dirname, 'index.html'));
 });
 
 app.use(express.static('./public'));
