@@ -24,7 +24,7 @@ app.get('*', (request, response) => {
 	response.sendFile(path.join(__dirname, 'index.html'));
 });
 
-app.use(express.static('./public'));
+app.use(express.static(path.join(__dirname, '/public')));
 app.use('/', router);
 // Access the parse results as request.body
 app.post('/sendemail', (request, response) => {
