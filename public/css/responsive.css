@@ -1,0 +1,581 @@
+
+@media (min-width:992px) and (max-width:1199px) {
+#intro h2 {
+	font-size: 70px;
+	line-height: 80px;
+}
+.intro_text p {
+	font-size: 16px;
+}
+.form_register form {
+	margin: 0 15px;
+}
+#tabs-holder img {
+	margin-top: 40px;
+}
+#accordion-holder img {
+	margin-top: 60px;
+}
+.statistic-number {
+	font-size: 80px;
+	line-height: 80px;
+}
+.statistic-text {
+	font-size: 22px;
+}
+.overlay-content h4 {
+	font-size: 20px;
+}
+.portfolio-item:hover .overlay-content {
+	bottom: 35%;
+}
+.pricing-table ul.features {
+	font-size: 14px;
+	padding: 5px 30px;
+}
+#newsletter_form {
+	width: 60%;
+}
+#newsletter form input[type="email"] {
+	width: 70%;
+}
+#newsletter form input[type="submit"] {
+	width: 29%;
+}
+}
+
+@media only screen and (max-width:991px) {
+	
+	
+#scrollUp {
+	display:none !important;}	
+.navbar-nav > li > a {
+	padding: 0 10px;
+}
+#intro_content {
+	padding-top: 190px;
+	padding-bottom: 140px;
+	text-align: center;
+}
+#intro h2 {
+	font-size: 70px;
+	line-height: 80px;
+	padding: 0 4%;
+}
+#intro h3 {
+	    font-size: 29px;
+    line-height: 35px;
+}
+.intro_text p {
+	padding: 0 15%;
+	font-size: 25px;
+    line-height: 28px;
+}
+.intro_buttons {
+	margin-bottom: 40px;
+	text-align: center;
+}
+#intro_form {
+	width: 76%;
+	margin-left: 12%;
+}
+.features-box {
+	text-align: center;
+}
+.icon-box {
+	width: auto;
+	height: auto;
+	float: none !important;
+	margin-bottom: 10px;
+}
+.icon-box i {
+	margin-top: 0;
+}
+.features-text {
+	padding: 0px;
+}
+.features-text p {
+	padding-right: 0;
+}
+#tabs-holder img {
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+#accordion-holder img {
+	margin-bottom: 40px;
+}
+.client-msg p {
+	font-size: 16px;
+	line-height: 24px;
+}
+.statistic-number {
+	font-size: 75px;
+	line-height: 75px;
+}
+.statistic-text {
+	font-size: 20px;
+}
+.timeline-item-content {
+	text-align: center;
+}
+.timeline-item:before, .timeline-item-content:before, .timeline-item-content.pull-right:before {
+	display: none;
+}
+.overlay-content h4 {
+	font-size: 20px;
+}
+.portfolio-item:hover .overlay-content {
+	bottom: 35%;
+}
+#gallery-filter .btn-group > .btn {
+	font-size: 14px;
+	margin: 0 3px;
+	padding: 6px 12px;
+}
+.customNavigation {
+	right: 47%;
+}
+.map-canvas {
+	height: 450px;
+}
+#newsletter_form {
+	width: 75%;
+}
+#newsletter form input[type="email"] {
+	width: 65%;
+}
+#newsletter form input[type="submit"] {
+	width: 34%;
+}
+}
+
+@media only screen and (max-width:767px) {
+	
+#scrollUp {
+	display:none !important;}	
+.titlebar h2 {
+	font-size: 32px;
+}
+.titlebar h3 {
+	font-size: 22px;
+}
+.titlebar h2:after {
+	width: 140px;
+}
+#services, #features, #about, #about-1, #skills, #history, #team, #pricing, #blog, #contact-info, #testimonials, #contact {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.navbar-brand {
+	padding: 20px 30px;
+}
+.navbar {
+	background-color: white;
+    padding: 0px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    position: absolute;
+}
+.navbar-nav {
+	margin: 0 -15px;
+	border-top: 1px solid #444;
+	background-color: white;
+}
+.navbar-nav > li {
+	text-align: center;
+}
+.navbar-nav > li > a {
+	line-height: 45px;
+	text-align: center;
+}
+#intro_content {
+	padding-top: 160px;
+	padding-bottom: 120px;
+	text-align: center;
+}
+#intro h2 {
+	font-size: 60px;
+	line-height: 70px;
+	padding: 0 8%;
+}
+#intro h3 {
+	font-size: 30px;
+}
+.intro_text p {
+	padding: 0 15%;
+}
+.intro_buttons .btn-theme {
+	font-size: 16px;
+	padding: 8px 16px;
+}
+#skills {
+	padding-bottom: 20px;
+}
+#skills .col-sm-3 {
+	margin-bottom: 60px;
+}
+.statistic-number {
+	font-size: 60px;
+	line-height: 55px;
+}
+.statistic-text {
+	font-size: 18px;
+}
+.portfolio-item:hover .overlay-content {
+	bottom: 38%;
+}
+#promo_line h2 {
+	font-size: 30px;
+	line-height: 36px;
+}
+#promo_line p {
+	font-size: 16px;
+	line-height: 30px;
+}
+.testimonial {
+	padding: 0 10%;
+	margin-bottom: 30px;
+}
+#newsletter_form {
+	width: 85%;
+}
+#newsletter form input[type="email"] {
+	width: 65%;
+}
+#newsletter form input[type="submit"] {
+	width: 34%;
+}
+}
+
+@media only screen and (max-width:640px) {
+	
+	
+#scrollUp {
+	display:none !important;}	
+	
+#intro_content {
+	padding-top: 150px;
+	padding-bottom: 100px;
+}
+#intro h2 {
+	font-size: 55px;
+	line-height: 65px;
+	padding: 0 5%;
+}
+#intro h3 {
+	font-size: 28px;
+}
+.intro_text p {
+	font-size: 16px;
+	padding: 0 12%;
+}
+#intro_form {
+	width: 80%;
+	margin-left: 10%;
+}
+.service-box h4 {
+	font-size: 18px;
+}
+.service-box p {
+	font-size: 14px;
+	line-height: 24px;
+}
+.features-text p {
+	font-size: 14px;
+	line-height: 22px;
+}
+.nav-tabs > li > a {
+	font-size: 20px;
+}
+.tab-content > .tab-pane p {
+	font-size: 14px;
+	line-height: 24px;
+}
+.panel-title {
+	font-size: 18px;
+}
+.panel-title i {
+	font-size: 24px;
+}
+.panel-body {
+	font-size: 14px;
+	line-height: 24px;
+}
+.team_members_wrapper .col-xs-6 {
+	width: 100%;
+	float: none !important;
+}
+.team-img-meta p {
+	padding: 0 10%;
+}
+.price-row .col-xs-6 {
+	width: 100%;
+	float: none !important;
+}
+.pricing-table {
+	margin: 0 40px;
+}
+.statistic-number {
+	font-size: 50px;
+	line-height: 50px;
+}
+.statistic-text {
+	font-size: 18px;
+}
+.timeline-item-content {
+	font-size: 14px;
+	line-height: 24px;
+}
+.testimonial {
+	padding: 0 5%;
+}
+#promo_line h2 {
+	font-size: 24px;
+	line-height: 30px;
+}
+#promo_line p {
+	font-size: 14px;
+	line-height: 24px;
+}
+#newsletter p {
+	font-size: 14px;
+	line-height: 24px;
+}
+#newsletter form input[type="email"] {
+	width: 65%;
+	padding: 10px 15px;
+}
+#newsletter form input[type="submit"] {
+	width: 34%;
+	padding: 10px 15px;
+}
+}
+
+@media (max-width:480px) {
+#stlChanger {
+	display: none;
+}
+.titlebar h2 {
+	font-size: 30px;
+}
+.titlebar h3 {
+	font-size: 20px;
+}
+.titlebar h2:after {
+	width: 120px;
+}
+#services, #features, #about, #about-1, #skills, #history, #team, #pricing, #blog, #contact-info, #testimonials, #contact {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+#intro_content {
+	padding-top: 150px;
+	padding-bottom: 100px;
+}
+#intro h2 {
+	font-size: 50px;
+	line-height: 55px;
+	padding: 0 5%;
+}
+#intro h3 {
+	font-size: 24px;
+	margin-bottom: 20px;
+	line-height: 36px;
+}
+.intro_text p {
+	font-size: 16px;
+	padding: 0 5%;
+}
+.intro_buttons .btn-theme {
+	font-size: 14px;
+	padding: 7px 14px;
+}
+#intro_form {
+	width: 100%;
+	margin-left: 0%;
+}
+.form_register form {
+	margin: 0 15px;
+}
+#skills .col-sm-3 {
+	width: 100%;
+	float: none!important;
+}
+#statistic_banner {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+#statistic_banner .titlebar {
+	margin-bottom: 30px;
+}
+.statistic-block {
+	width: 100%;
+	float: none;
+	margin-top: 40px;
+}
+.statistic-number {
+	font-size: 60px;
+	line-height: 60px;
+}
+.statistic-text {
+	font-size: 20px;
+}
+.portfolio-item {
+	width: 100%;
+	float: none !important;
+}
+#gallery-filter .btn-group > .btn {
+	font-size: 14px;
+	margin: 0 3px 5px;
+	padding: 5px 10px;
+}
+.team-img-meta p {
+	padding: 0;
+}
+#clients {
+	padding-bottom: 80px;
+}
+.customNavigation {
+	display: none;
+}
+#promo_line h2 {
+	font-size: 20px;
+	line-height: 24px;
+}
+#promo_line p {
+	font-size: 14px;
+	line-height: 20px;
+}
+#testimonials h3 {
+	font-size: 24px;
+	line-height: 32px;
+}
+.testimonial {
+	padding: 0;
+}
+#newsletter form input[type="email"], #newsletter form input[type="submit"] {
+	font-size: 14px;
+}
+#newsletter_form {
+	width: 100%;
+}
+#newsletter h3 {
+	font-size: 20px;
+}
+#newsletter form input[type="email"] {
+	width: 65%;
+}
+#newsletter form input[type="submit"] {
+	width: 34%;
+}
+.contact-info {
+	width: 100%;
+	float: none !important;
+}
+.map-canvas {
+	height: 400px;
+}
+
+#scrollUp {
+	display:none !important;}
+
+}
+
+@media (max-width:320px) {
+	
+#scrollUp {
+	display:none !important;}	
+	
+.btn-theme {
+	font-size: 13px;
+	padding: 6px 12px;
+}
+.titlebar h2 {
+	font-size: 28px;
+	line-height: 34px;
+}
+.titlebar h3 {
+	font-size: 18px;
+}
+.titlebar h2:after {
+	width: 100px;
+}
+#services, #features, #about, #about-1, #skills, #history, #team, #pricing, #blog, #contact-info, #testimonials, #contact {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+#intro_content {
+	padding-top: 130px;
+	padding-bottom: 80px;
+}
+#intro h2 {
+	font-size: 32px;
+	line-height: 42px;
+	margin-bottom: 5px;
+	padding: 0;
+}
+#intro h3 {
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+.intro_text p {
+	font-size: 14px;
+	line-height: 22px;
+	padding: 0;
+}
+.intro_buttons .btn-theme {
+	margin-bottom: 15px;
+}
+.form_register h4 {
+	font-size: 18px;
+}
+.form_register form {
+	margin: 0;
+}
+#service-buttons a {
+	margin-bottom: 10px;
+}
+.nav-tabs > li > a {
+	font-size: 16px;
+}
+.statistic-number {
+	font-size: 40px;
+	line-height: 30px;
+}
+.statistic-text {
+	font-size: 18px;
+}
+.pricing-table {
+	margin: 0;
+}
+#promo_line a {
+	margin-bottom: 10px;
+}
+#promo_line p {
+	font-size: 14px;
+	line-height: 20px;
+}
+#newsletter h3 {
+	font-size: 16px;
+	line-height: 22px;
+}
+#newsletter p {
+	font-size: 14px;
+	line-height: 20px;
+}
+#newsletter form input[type="email"] {
+	width: 100%;
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+#newsletter form input[type="submit"] {
+	width: 100%;
+	font-size: 14px;
+}
+.message {
+	font-size: 16px;
+}
+#footer_copyright p {
+	line-height: 24px;
+}
+}
