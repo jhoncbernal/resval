@@ -19,9 +19,9 @@ const bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({ extended: true }))
 
 router.get('/', function (req, res) {
-    res.redirect( './index.html');
+    res.redirect(path.join(__dirname + '/index.html'));
 })
-app.use(express.static('./public'));
+app.use(express.static('/public'));
 app.use('/', router);
 // Access the parse results as request.body
 app.post('/sendemail', (request, response) => {
@@ -31,6 +31,7 @@ app.post('/sendemail', (request, response) => {
 app.listen(process.env.PORT || 3000, function(){
     console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
   });
+
 async function  SendEmail(body){
     console.log(JSON.stringify(body));
     const message = {
