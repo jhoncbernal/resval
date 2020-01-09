@@ -28,8 +28,9 @@ app.post('/sendemail', (request, response) => {
     SendEmail(request.body);
     response.redirect('/');
 });
-app.listen(process.env.port || 4000);
-
+app.listen(process.env.PORT || 3000, function(){
+    console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
+  });
 async function  SendEmail(body){
     console.log(JSON.stringify(body));
     const message = {
