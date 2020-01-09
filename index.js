@@ -19,7 +19,7 @@ const bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({ extended: true }))
 
 router.get('/', function (req, res) {
-    res.sendFile(path.join(__dirname + '/index.html'));
+    res.redirect(path.join(__dirname + '/index.html'));
 })
 app.use(express.static(__dirname + '/public'));
 app.use('/', router);
