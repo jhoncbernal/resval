@@ -7,11 +7,10 @@ const path = require('path');
 const router = express.Router();
 
 let transport = nodemailer.createTransport({
-    host: 'smtp.mailtrap.io',
-    port: 2525,
+    service:'gmail',
     auth: {
-        user: '9f7e7d1fe0756e',
-        pass: '69610a9d69140b'
+        user: 'contactresval@gmail.com',
+        pass: 'resval2019'
     }
 });
 
@@ -30,7 +29,7 @@ app.use('/', router);
 // Access the parse results as request.body
 app.post('/sendemail', (request, response) => {
     SendEmail(request.body);
-    response.redirect('/');
+    response.sendFile(path.join(__dirname, 'gracias.html'));
 });
 app.listen(process.env.PORT || 3000, function(){
     console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
@@ -39,9 +38,9 @@ app.listen(process.env.PORT || 3000, function(){
 async function  SendEmail(body){
     console.log(JSON.stringify(body));
     const message = {
-        from: 'elonmusk@tesla.com', // Sender address
-        to: 'to@email.com',         // List of recipients
-        subject: 'Design Your Model S | Tesla', // Subject line
+        from: 'contactresval@gmail.com', // Sender address
+        to: 'comercial@res-val.com;info@res-val.com',         // List of recipients
+        subject: 'Solicitud de informacion', // Subject line
         text: `La persona con el nombre ${body.user.name} de ${body.user.ciudad} con los siguientes datos de contacto: Correo: ${body.user.email} , Telefono: ${body.user.telefono}   hace la siguiente solicitud ${body.user.message}`// Plain text body        
     };
 
