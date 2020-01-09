@@ -19,16 +19,16 @@ const bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({ extended: true }))
 
 router.get('/', function (req, res) {
-    res.redirect(path.join(__dirname + '/index.html'));
+    res.redirect( './index.html');
 })
-app.use(express.static(__dirname + '/public'));
+app.use(express.static('./public'));
 app.use('/', router);
 // Access the parse results as request.body
 app.post('/sendemail', (request, response) => {
     SendEmail(request.body);
     response.redirect('/');
 });
-app.listen(process.env.port || 4000);
+app.listen(process.env.port || 3000);
 
 async function  SendEmail(body){
     console.log(JSON.stringify(body));
