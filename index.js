@@ -22,9 +22,9 @@ app.use(bodyParser.urlencoded({ extended: true }))
 app.get('/.well-known/acme-challenge/:content', function(req, res) {
   res.send('xxxxxxxxxxxx-yyyy.zzzzzzzzzzzzzzzzzzz')
 });
-app.get('*', (request, response) => {
+/* app.get('*', (request, response) => {
 	response.sendFile(path.join(__dirname, 'index.html'));
-});
+}); */
 
 
 app.use('/', router);
