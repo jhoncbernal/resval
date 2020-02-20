@@ -19,9 +19,9 @@ app.use(express.static(__dirname + '/public'));
 app.use(bodyParser.urlencoded({ extended: true }))
 
 
-app.get('/.well-known/acme-challenge/:content', function(req, res) {
+/* app.get('/.well-known/acme-challenge/:content', function(req, res) {
   res.send('rhw6gCp5LG3FvR3ET8I_63GDdeuKAg7PxgjWFzVch_Q.b_GU-mAcCTS5yoRBc0sU4warW57pXI82GKxbivBLIdA')
-});
+}); */
 app.get('*', (request, response) => {
 	response.sendFile(path.join(__dirname, 'index.html'));
 });
