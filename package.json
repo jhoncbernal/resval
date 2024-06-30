@@ -7,7 +7,7 @@
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
-    "build": "webpack"
+    "build": "npx webpack"
   },
   "keywords": [
     "email",
