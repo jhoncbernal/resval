@@ -13,20 +13,46 @@
   <link href="css/bootstrap.css" rel="stylesheet" media="all" onload="if(media!='all')media='all'">
   <link href="css/style.css" rel="stylesheet">
   <link href="css/responsive.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300italic,800italic,800,700italic,700,600italic,600,400italic,300" rel="stylesheet" type="text/css">
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:400,300italic,800italic,800,700italic,700,600italic,600,400italic,300"
+    rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Oswald:400,300,700" rel="stylesheet" type="text/css">
   <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
+  <!-- Email Error Modal -->
+  <div class="modal fade" id="emailErrorModal" tabindex="-1" role="dialog" aria-labelledby="emailErrorModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="emailErrorModalLabel">Email Sending Failed</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          There was an error trying to send your email. Please try again later.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" onclick="retrySendEmail();">Try Again</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <header id="header">
 
     <div class="navbar navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
           <!-- Logo Image --><a class="navbar-brand" href="#"><img class="img-responsive" src="img/logo.png" alt="logo"
-              role="banner" style=" margin-top:-40px"></a> </div>
+              role="banner" style=" margin-top:-40px"></a>
+        </div>
         <!-- End Navigation Bar -->
         <!-- Navigation Menu -->
         <nav id="navigation-menu" class="collapse navbar-collapse" role="navigation">
@@ -57,12 +83,14 @@
           <button type="button" class="standard-button navbar-toggle" data-toggle="collapse"
             data-target="#landx-navigation"> <img src="img/whatsapp.png" style="margin-left:10px; margin-top:-5px;">
             <a class="tel_whatsapp_mensaje" href="https://api.whatsapp.com/send?phone=573176654123"
-              style="color:#FFF;">Envíanos un WhatsApp</a> </button> <br> </center>
-              <br/>
+              style="color:#FFF;">Envíanos un WhatsApp</a> </button> <br>
+        </center>
+        <br />
         <!-- INTRO TEXT -->
         <div class="col-md-7">
           <div class="intro_text">
-            <h2 class="titulo_principal_seccion" style="text-shadow: rgb(17, 17, 17) 2px 2px 2px;">Venta de Abono Orgánico Mineral Solaid® </h2> <br>
+            <h2 class="titulo_principal_seccion" style="text-shadow: rgb(17, 17, 17) 2px 2px 2px;">Venta de Abono
+              Orgánico Mineral Solaid® </h2> <br>
             <p class="descripcion_servicios" style="text-shadow: rgb(17, 17, 17) 2px 2px 2px;"> Producto
               sólido
               obtenido de residuos de origen vegetal, animal e industrial (alimentos) que contiene
@@ -156,7 +184,8 @@
           <h2 style="color: #fff">Despachos Desde 1 tonelada
             <br>
             Tipo de Producto: Abono Orgánico. Presentación: 50 kilos (lona laminada).<br>
-            Transporte: No incluido. Punto de venta: km 6,7 vía Cajicá - Zipaquirá</h2>
+            Transporte: No incluido. Punto de venta: km 6,7 vía Cajicá - Zipaquirá
+          </h2>
         </div>
       </div>
     </div>
@@ -203,7 +232,8 @@
             Micorrizas.<br>
             <span data-brackets-id="25477" class="glyphicon glyphicon-record"
               style="color:#91b942; font-size:20px"></span>
-            Precios Competitivos</p><a data-brackets-id="25899" class="btn btn-theme" href="#footer">Solicitar
+            Precios Competitivos
+          </p><a data-brackets-id="25899" class="btn btn-theme" href="#footer">Solicitar
             Información <i data-brackets-id="25900" class="fa fa-angle-double-right"></i></a>
         </div>
         <!--  END ACCORDION -->
@@ -316,234 +346,234 @@
       </div>
     </div>
 
-<center>
-    <!-- PORTFOLIO IMAGES HOLDER -->
-    <div class="row">
-      <ul class="portfolio-items-list">
+    <center>
+      <!-- PORTFOLIO IMAGES HOLDER -->
+      <div class="row">
+        <ul class="portfolio-items-list">
 
-        <!-- IMAGE #1 -->
-        <li class="col-xs-5 col-sm-5 col-md-3 portfolio-item illustration web mix_all" data-cat="2"
-          style="display: inline-block;  opacity: 1;">
-          <div class="hover-overlay">
+          <!-- IMAGE #1 -->
+          <li class="col-xs-5 col-sm-5 col-md-3 portfolio-item illustration web mix_all" data-cat="2"
+            style="display: inline-block;  opacity: 1;">
+            <div class="hover-overlay">
 
-            <!-- Image Link -->
-            <img class="img-responsive" src="img/portfolio/img1.jpg" alt="Portfolio Image">
+              <!-- Image Link -->
+              <img class="img-responsive" src="img/portfolio/img1.jpg" alt="Portfolio Image">
 
-            <!-- Image Zoom -->
-            <div class="item-overlay">
-              <div class="overlay-content">
-                <h4>Tomate</h4>
+              <!-- Image Zoom -->
+              <div class="item-overlay">
+                <div class="overlay-content">
+                  <h4>Tomate</h4>
+                </div>
               </div>
             </div>
-          </div>
-        </li>
-        <!-- END IMAGE #1 -->
+          </li>
+          <!-- END IMAGE #1 -->
 
-        <!-- IMAGE #2 -->
-        <li class="col-xs-5 col-sm-5 col-md-3 portfolio-item digital_art illustration mix_all" data-cat="3"
-          style="display: inline-block;  opacity: 1;">
-          <div class="hover-overlay">
+          <!-- IMAGE #2 -->
+          <li class="col-xs-5 col-sm-5 col-md-3 portfolio-item digital_art illustration mix_all" data-cat="3"
+            style="display: inline-block;  opacity: 1;">
+            <div class="hover-overlay">
 
-            <!-- Image Link -->
-            <img class="img-responsive" src="img/portfolio/img2.jpg" alt="Portfolio Image">
+              <!-- Image Link -->
+              <img class="img-responsive" src="img/portfolio/img2.jpg" alt="Portfolio Image">
 
-            <!-- Image Zoom -->
-            <div class="item-overlay">
-              <div class="overlay-content">
-                <h4>Zanahoria</h4>
+              <!-- Image Zoom -->
+              <div class="item-overlay">
+                <div class="overlay-content">
+                  <h4>Zanahoria</h4>
+                </div>
               </div>
             </div>
-          </div>
-        </li>
-        <!-- END IMAGE #2 -->
+          </li>
+          <!-- END IMAGE #2 -->
 
-        <!-- IMAGE #3 -->
-        <li class="col-xs-5 col-sm-5 col-md-3 portfolio-item graphic_design digital_art mix_all" data-cat="4"
-          style="display: inline-block;  opacity: 1;">
-          <div class="hover-overlay">
+          <!-- IMAGE #3 -->
+          <li class="col-xs-5 col-sm-5 col-md-3 portfolio-item graphic_design digital_art mix_all" data-cat="4"
+            style="display: inline-block;  opacity: 1;">
+            <div class="hover-overlay">
 
-            <!-- Image Link -->
-            <img class="img-responsive" src="img/portfolio/img3.jpg" alt="Portfolio Image">
+              <!-- Image Link -->
+              <img class="img-responsive" src="img/portfolio/img3.jpg" alt="Portfolio Image">
 
-            <!-- Image Zoom -->
-            <div class="item-overlay">
-              <div class="overlay-content">
-                <h4>Café</h4>
+              <!-- Image Zoom -->
+              <div class="item-overlay">
+                <div class="overlay-content">
+                  <h4>Café</h4>
+                </div>
               </div>
             </div>
-          </div>
-        </li>
-        <!-- END IMAGE #3 -->
+          </li>
+          <!-- END IMAGE #3 -->
 
-        <!-- IMAGE #4 -->
-        <li class="col-xs-5 col-sm-5 col-md-3 portfolio-item illustration graphic_design mix_all" data-cat="2"
-          style="display: inline-block;  opacity: 1;">
-          <div class="hover-overlay">
+          <!-- IMAGE #4 -->
+          <li class="col-xs-5 col-sm-5 col-md-3 portfolio-item illustration graphic_design mix_all" data-cat="2"
+            style="display: inline-block;  opacity: 1;">
+            <div class="hover-overlay">
 
-            <!-- Image Link -->
-            <img class="img-responsive" src="img/portfolio/img4.jpg" alt="Portfolio Image">
+              <!-- Image Link -->
+              <img class="img-responsive" src="img/portfolio/img4.jpg" alt="Portfolio Image">
 
 
-            <!-- Image Zoom -->
-            <div class="item-overlay">
-              <div class="overlay-content">
-                <h4>Pasto</h4>
+              <!-- Image Zoom -->
+              <div class="item-overlay">
+                <div class="overlay-content">
+                  <h4>Pasto</h4>
+                </div>
               </div>
             </div>
-          </div>
-        </li>
-        <!-- END IMAGE #4 -->
+          </li>
+          <!-- END IMAGE #4 -->
 
-        <!-- IMAGE #5 -->
-        <li class="col-xs-5 col-sm-5 col-md-3 portfolio-item web illustration mix_all" data-cat="5"
-          style="display: inline-block;  opacity: 1;">
-          <div class="hover-overlay">
+          <!-- IMAGE #5 -->
+          <li class="col-xs-5 col-sm-5 col-md-3 portfolio-item web illustration mix_all" data-cat="5"
+            style="display: inline-block;  opacity: 1;">
+            <div class="hover-overlay">
 
-            <!-- Image Link -->
-            <img class="img-responsive" src="img/portfolio/img5.jpg" alt="Portfolio Image">
+              <!-- Image Link -->
+              <img class="img-responsive" src="img/portfolio/img5.jpg" alt="Portfolio Image">
 
-            <!-- Image Zoom -->
-            <div class="item-overlay">
-              <div class="overlay-content">
-                <h4>Durazno</h4>
+              <!-- Image Zoom -->
+              <div class="item-overlay">
+                <div class="overlay-content">
+                  <h4>Durazno</h4>
+                </div>
               </div>
             </div>
-          </div>
-        </li>
-        <!-- END IMAGE #5 -->
+          </li>
+          <!-- END IMAGE #5 -->
 
-        <!-- IMAGE #6 -->
-        <li class="col-xs-5 col-sm-5 col-md-3 portfolio-item digital_art web mix_all" data-cat="3"
-          style="display: inline-block;  opacity: 1;">
-          <div class="hover-overlay">
+          <!-- IMAGE #6 -->
+          <li class="col-xs-5 col-sm-5 col-md-3 portfolio-item digital_art web mix_all" data-cat="3"
+            style="display: inline-block;  opacity: 1;">
+            <div class="hover-overlay">
 
-            <!-- Image Link -->
-            <img class="img-responsive" src="img/portfolio/img6.jpg" alt="Portfolio Image">
+              <!-- Image Link -->
+              <img class="img-responsive" src="img/portfolio/img6.jpg" alt="Portfolio Image">
 
-            <!-- Image Zoom -->
-            <div class="item-overlay">
-              <div class="overlay-content">
-                <h4>Maíz</h4>
+              <!-- Image Zoom -->
+              <div class="item-overlay">
+                <div class="overlay-content">
+                  <h4>Maíz</h4>
+                </div>
               </div>
             </div>
-          </div>
-        </li>
-        <!-- END IMAGE #6 -->
+          </li>
+          <!-- END IMAGE #6 -->
 
-        <!-- IMAGE #7 -->
-        <li class="col-xs-5 col-sm-5 col-md-3 portfolio-item graphic_design digital_art mix_all" data-cat="4"
-          style="display: inline-block;  opacity: 1;">
-          <div class="hover-overlay">
+          <!-- IMAGE #7 -->
+          <li class="col-xs-5 col-sm-5 col-md-3 portfolio-item graphic_design digital_art mix_all" data-cat="4"
+            style="display: inline-block;  opacity: 1;">
+            <div class="hover-overlay">
 
-            <!-- Image Link -->
-            <img class="img-responsive" src="img/portfolio/img7.jpg" alt="Portfolio Image">
+              <!-- Image Link -->
+              <img class="img-responsive" src="img/portfolio/img7.jpg" alt="Portfolio Image">
 
-            <!-- Image Zoom -->
-            <div class="item-overlay">
-              <div class="overlay-content">
-                <h4>Lechuga</h4>
+              <!-- Image Zoom -->
+              <div class="item-overlay">
+                <div class="overlay-content">
+                  <h4>Lechuga</h4>
+                </div>
               </div>
             </div>
-          </div>
-        </li>
-        <!-- END IMAGE #7 -->
+          </li>
+          <!-- END IMAGE #7 -->
 
-        <!-- IMAGE #8 -->
-        <li class="col-xs-5 col-sm-5 col-md-3 portfolio-item web graphic_design mix_all" data-cat="5"
-          style="display: inline-block;  opacity: 1;">
-          <div class="hover-overlay">
+          <!-- IMAGE #8 -->
+          <li class="col-xs-5 col-sm-5 col-md-3 portfolio-item web graphic_design mix_all" data-cat="5"
+            style="display: inline-block;  opacity: 1;">
+            <div class="hover-overlay">
 
-            <!-- Image Link -->
-            <img class="img-responsive" src="img/portfolio/img8.jpg" alt="Portfolio Image">
+              <!-- Image Link -->
+              <img class="img-responsive" src="img/portfolio/img8.jpg" alt="Portfolio Image">
 
-            <!-- Image Zoom -->
-            <div class="item-overlay">
-              <div class="overlay-content">
-                <h4>Aromáticas</h4>
+              <!-- Image Zoom -->
+              <div class="item-overlay">
+                <div class="overlay-content">
+                  <h4>Aromáticas</h4>
+                </div>
               </div>
             </div>
-          </div>
-        </li>
+          </li>
 
 
-        <li class="col-xs-5 col-sm-5 col-md-3 portfolio-item web graphic_design mix_all" data-cat="5"
-          style="display: inline-block;  opacity: 1;">
-          <div class="hover-overlay">
+          <li class="col-xs-5 col-sm-5 col-md-3 portfolio-item web graphic_design mix_all" data-cat="5"
+            style="display: inline-block;  opacity: 1;">
+            <div class="hover-overlay">
 
-            <!-- Image Link -->
-            <img class="img-responsive" src="img/portfolio/img9.jpg" alt="Portfolio Image">
+              <!-- Image Link -->
+              <img class="img-responsive" src="img/portfolio/img9.jpg" alt="Portfolio Image">
 
-            <!-- Image Zoom -->
-            <div class="item-overlay">
-              <div class="overlay-content">
-                <h4>Clavel</h4>
+              <!-- Image Zoom -->
+              <div class="item-overlay">
+                <div class="overlay-content">
+                  <h4>Clavel</h4>
+                </div>
               </div>
             </div>
-          </div>
-        </li>
+          </li>
 
 
-        <li class="col-xs-5 col-sm-5 col-md-3 portfolio-item web graphic_design mix_all" data-cat="5"
-          style="display: inline-block;  opacity: 1;">
-          <div class="hover-overlay">
+          <li class="col-xs-5 col-sm-5 col-md-3 portfolio-item web graphic_design mix_all" data-cat="5"
+            style="display: inline-block;  opacity: 1;">
+            <div class="hover-overlay">
 
-            <!-- Image Link -->
-            <img class="img-responsive" src="img/portfolio/img10.jpg" alt="Portfolio Image">
+              <!-- Image Link -->
+              <img class="img-responsive" src="img/portfolio/img10.jpg" alt="Portfolio Image">
 
-            <!-- Image Zoom -->
-            <div class="item-overlay">
-              <div class="overlay-content">
-                <h4>Papa</h4>
+              <!-- Image Zoom -->
+              <div class="item-overlay">
+                <div class="overlay-content">
+                  <h4>Papa</h4>
+                </div>
               </div>
             </div>
-          </div>
-        </li>
+          </li>
 
 
 
-        <li class="col-xs-5 col-sm-5 col-md-3 portfolio-item web graphic_design mix_all" data-cat="5"
-          style="display: inline-block;  opacity: 1;">
-          <div class="hover-overlay">
+          <li class="col-xs-5 col-sm-5 col-md-3 portfolio-item web graphic_design mix_all" data-cat="5"
+            style="display: inline-block;  opacity: 1;">
+            <div class="hover-overlay">
 
-            <!-- Image Link -->
-            <img class="img-responsive" src="img/portfolio/img11.jpg" alt="Portfolio Image">
+              <!-- Image Link -->
+              <img class="img-responsive" src="img/portfolio/img11.jpg" alt="Portfolio Image">
 
-            <!-- Image Zoom -->
-            <div class="item-overlay">
-              <div class="overlay-content">
-                <h4>Gulupa</h4>
+              <!-- Image Zoom -->
+              <div class="item-overlay">
+                <div class="overlay-content">
+                  <h4>Gulupa</h4>
+                </div>
               </div>
             </div>
-          </div>
-        </li>
+          </li>
 
-        <li class="col-xs-5 col-sm-5 col-md-3 portfolio-item web graphic_design mix_all" data-cat="5"
-          style="display: inline-block;  opacity: 1;">
-          <div class="hover-overlay">
+          <li class="col-xs-5 col-sm-5 col-md-3 portfolio-item web graphic_design mix_all" data-cat="5"
+            style="display: inline-block;  opacity: 1;">
+            <div class="hover-overlay">
 
-            <!-- Image Link -->
-            <img class="img-responsive" src="img/portfolio/img12.jpg" alt="Portfolio Image">
+              <!-- Image Link -->
+              <img class="img-responsive" src="img/portfolio/img12.jpg" alt="Portfolio Image">
 
-            <!-- Image Zoom -->
+              <!-- Image Zoom -->
 
-            <div class="item-overlay">
-              <div class="overlay-content">
-                <h4>Cacao</h4>
+              <div class="item-overlay">
+                <div class="overlay-content">
+                  <h4>Cacao</h4>
+                </div>
               </div>
+
             </div>
-
-          </div>
-        </li>
+          </li>
 
 
 
 
 
-        <!-- END IMAGE #8 -->
+          <!-- END IMAGE #8 -->
 
-      </ul>
-    </div>
-  </center>
+        </ul>
+      </div>
+    </center>
     <!-- END PORTFOLIO IMAGES HOLDER -->
 
   </section>
@@ -631,49 +661,57 @@
       <div class="row contenido_contacto">
         <!-- Office Location -->
         <a href="https://goo.gl/maps/FR9dPeZBjCkAEefE7">
-        <div class="col-xs-12 col-sm-4 col-md-4 contact-info text-center"> <i class="fa fa-map-marker"></i>
-          <h4 class="contact_title">Dirección</h4>
-          <p class="contact_direc">Km 6,7 vía Cajicá <br />- Zipaquirá. Cajicá<br />Cundinamarca.</p>
-        </div></a>
+          <div class="col-xs-12 col-sm-4 col-md-4 contact-info text-center"> <i class="fa fa-map-marker"></i>
+            <h4 class="contact_title">Dirección</h4>
+            <p class="contact_direc">Km 6,7 vía Cajicá <br />- Zipaquirá. Cajicá<br />Cundinamarca.</p>
+          </div>
+        </a>
         <!-- Call Us -->
         <a href="tel:3176654123">
-        <div class="col-xs-12 col-sm-4 col-md-4 contact-info text-center"> <i class="fa fa-phone"></i>
-          <h4 class="contact_title">Teléfono</h4>
-          <p class="contact_telefono">317 665 4123</p></a>
-        </div>
-        <!-- Email Address -->
-        <a href="mailto:comercial@res-val.com;info@res-val.com"
-            class="contact_email">
+          <div class="col-xs-12 col-sm-4 col-md-4 contact-info text-center"> <i class="fa fa-phone"></i>
+            <h4 class="contact_title">Teléfono</h4>
+            <p class="contact_telefono">317 665 4123</p>
+        </a>
+      </div>
+      <!-- Email Address -->
+      <a href="mailto:comercial@res-val.com;info@res-val.com" class="contact_email">
         <div class="col-xs-12 col-sm-4 col-md-4 contact-info text-center"> <i class="fa fa-envelope-o"></i>
-          <h4 class="contact_title">Email</h4> </a>comercial@res-val.com
-        </div>
-      </div>
-      <div class="row contenido_contacto">
-        <!-- Office Location -->
-        <a href="https://www.facebook.com/people/Resval-Valoración-Residuos/100013333664679">
+          <h4 class="contact_title">Email</h4>
+      </a>comercial@res-val.com
+    </div>
+    </div>
+    <div class="row contenido_contacto">
+      <!-- Office Location -->
+      <a href="https://www.facebook.com/people/Resval-Valoración-Residuos/100013333664679">
         <div class="col-xs-12 col-sm-4 col-md-4 contact-info text-center"> <i class="fa fa-facebook-square"></i>
-          <h4 class="contact_title">Facebook</h4></a>
-          
-        </div>
-        <!-- Call Us -->
-        <a href="https://www.instagram.com/resvalsasesp/?igshid=f2q77z8ytovb">
-        <div class="col-xs-12 col-sm-4 col-md-4 contact-info text-center"> <i class="fa fa-instagram"></i>
-          <h4 class="contact_title">Instagram</h4></a>
-        </div>
-        <!-- Email twitter -->
-        <div class="col-xs-12 col-sm-4 col-md-4 contact-info text-center"> <i class="fa fa-twitter"></i>
-        <h4 class="contact_title">Twitter</h4> 
-          <a href="https://twitter.com/resvalsas?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-dnt="true" data-show-count="false">Follow @resvalsas</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-        </div>
+          <h4 class="contact_title">Facebook</h4>
+      </a>
 
-      </div>
+    </div>
+    <!-- Call Us -->
+    <a href="https://www.instagram.com/resvalsasesp/?igshid=f2q77z8ytovb">
+      <div class="col-xs-12 col-sm-4 col-md-4 contact-info text-center"> <i class="fa fa-instagram"></i>
+        <h4 class="contact_title">Instagram</h4>
+    </a>
+    </div>
+    <!-- Email twitter -->
+    <div class="col-xs-12 col-sm-4 col-md-4 contact-info text-center"> <i class="fa fa-twitter"></i>
+      <h4 class="contact_title">Twitter</h4>
+      <a href="https://twitter.com/resvalsas?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large"
+        data-dnt="true" data-show-count="false">Follow @resvalsas</a>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
 
-          
-      <!-- End row -->
+    </div>
+
+
+    <!-- End row -->
     </div>
     <div class="container">
-    <a class="twitter-timeline" data-height="800" href="https://twitter.com/ResvalSas?ref_src=twsrc%5Etfw">Tweets by ResvalSas</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-  </div>
+      <a class="twitter-timeline" data-height="800" href="https://twitter.com/ResvalSas?ref_src=twsrc%5Etfw">Tweets by
+        ResvalSas</a>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
     <!-- End container -->
     <!-- GOOGLE MAP            ============================================= -->
     <div class="contenedor_mapa"></div>
@@ -685,23 +723,24 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6 col-lg-offset-3 form_register text-center">
-          <form style="background: #818181;border-radius: 30px;" action="/sendemail"
-            class="blueform row" method="post">
+          <form style="background: #818181;border-radius: 30px;" action="/sendemail" class="blueform row" method="post">
             <h4 style="color: #FFF; margin-bottom:0px;" class="titulo_formulario">Despachos desde 1 tonelada</h4>
             <h3 style="color: #FFF; margin-top:0px; font-weight:300;" class="descripcion_formulario">¿Cómo le podemos
               ayudar?</h3> <br>
             <div class="col-md-12 camp"> <input class="form-control nom_formulario " type="text" id="name"
-              name="user[name]" placeholder="Nombres y Apellidos *" maxlength="30" onkeypress="return soloLetras(event)" required="">
+                name="user[name]" placeholder="Nombres y Apellidos *" maxlength="30"
+                onkeypress="return soloLetras(event)" required="">
             </div>
             <div class="col-md-12"> <input class="form-control email" type="email" id="email" name="user[email]"
-              placeholder="Email *" maxlength="30" required=""> </div>
-            <div class="col-md-12"> <input class="form-control telefono" tid="telefono" name="user[telefono]" type="text"
-              placeholder="Teléfono *" pattern="^[0-9]*$" title="Digite solo números sin letras" maxlength="20"
-                required=""> </div>
-            <div class="col-md-12"> <input class="form-control ciudad" id="ciudad" name="user[ciudad]"
-              type="text" placeholder="Ciudad o Municipio*"  required=""> </div>
+                placeholder="Email *" maxlength="30" required=""> </div>
+            <div class="col-md-12"> <input class="form-control telefono" tid="telefono" name="user[telefono]"
+                type="text" placeholder="Teléfono *" pattern="^[0-9]*$" title="Digite solo números sin letras"
+                maxlength="20" required=""> </div>
+            <div class="col-md-12"> <input class="form-control ciudad" id="ciudad" name="user[ciudad]" type="text"
+                placeholder="Ciudad o Municipio*" required=""> </div>
             <div class="col-md-12 guia"> <textarea class="form-control mensaje " type="text" id="message"
-              name="user[message]" placeholder="¿Cómo le podemos ayudar?" style="height:60px;" maxlength="150"></textarea> </div>
+                name="user[message]" placeholder="¿Cómo le podemos ayudar?" style="height:60px;"
+                maxlength="150"></textarea> </div>
             <div class="text-center"> <input style="font-size:18px;" class="btn btn-theme" type="submit"
                 value="Solicitar información"> </div>
           </form>
