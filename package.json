@@ -1,13 +1,20 @@
 {
-  "name": "email",
+  "name": "resval",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple Node.js project for handling emails with Express and Nodemailer",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "email",
+    "express",
+    "nodemailer",
+    "node"
+  ],
+  "author": "Jhon Casallas",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.20.2",
@@ -15,5 +22,8 @@
     "express": "^4.19.2",
     "express-validator": "^7.1.0",
     "nodemailer": "^6.9.14"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
   }
 }
